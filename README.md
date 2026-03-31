@@ -9,10 +9,18 @@
 
 User and agent friendly CLI to convert colors between formats.
 
+## Agent Skill
+
+Add the color conversion skill to your agent:
+
+```bash
+npx skills add https://github.com/constantgillet/colorto --skill convert-color
+```
+
 ## Installation
 
 ```bash
-npm install -g @constantgillet/colorto
+npm install -g @cgillet/colorto
 ```
 
 ## Usage
