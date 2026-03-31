@@ -1,0 +1,32 @@
+{
+	"name": "colorto",
+	"version": "0.1.0",
+	"description": "User and agent friendly CLI to convert colors between formats",
+	"type": "module",
+	"bin": {
+		"colorto": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsup src/cli.ts --format esm --clean",
+		"dev": "tsx src/cli.ts",
+		"start": "node dist/cli.js",
+		"test": "vitest run",
+		"lint": "biome check src/",
+		"format": "biome format --write src/"
+	},
+	"dependencies": {
+		"@inquirer/prompts": "^8.3.2",
+		"chalk": "^5.4.1",
+		"commander": "^14.0.0",
+		"culori": "^4.0.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.0",
+		"@types/culori": "^2.1.1",
+		"@types/node": "^22.0.0",
+		"tsup": "^8.5.0",
+		"tsx": "^4.19.0",
+		"typescript": "^5.7.0",
+		"vitest": "^4.1.2"
+	}
+}
