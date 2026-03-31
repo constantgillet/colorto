@@ -3,9 +3,11 @@
 	"version": "0.1.0",
 	"description": "User and agent friendly CLI to convert colors between formats",
 	"type": "module",
+	"license": "MIT",
 	"bin": {
 		"colorto": "./dist/cli.js"
 	},
+	"files": ["dist", "LICENSE", "README.md"],
 	"scripts": {
 		"build": "tsup src/cli.ts --format esm --clean",
 		"dev": "tsx src/cli.ts",
