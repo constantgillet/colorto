@@ -1,20 +1,24 @@
 {
-	"name": "@cgillet/colorto",
-	"version": "0.1.4",
+	"name": "@constantgillet/colorto",
+	"version": "0.1.0",
 	"description": "User and agent friendly CLI to convert colors between formats",
 	"type": "module",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/constantgillet/colorto.git"
+		"url": "git+https://github.com/constantgillet/colorto.git"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
 	},
 	"bin": {
-		"colorto": "./dist/cli.js"
+		"colorto": "dist/cli.js"
 	},
-	"files": ["dist", "LICENSE", "README.md"],
+	"files": [
+		"dist",
+		"LICENSE",
+		"README.md"
+	],
 	"scripts": {
 		"build": "tsup src/cli.ts --format esm --clean",
 		"dev": "tsx src/cli.ts",
