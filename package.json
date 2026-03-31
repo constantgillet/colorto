@@ -1,6 +1,6 @@
 {
 	"name": "@cgillet/colorto",
-	"version": "0.1.3",
+	"version": "0.1.4",
 	"description": "User and agent friendly CLI to convert colors between formats",
 	"type": "module",
 	"license": "MIT",
