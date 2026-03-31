@@ -1,5 +1,5 @@
 {
-	"name": "colorto",
+	"name": "@cgillet/colorto",
 	"version": "0.1.0",
 	"description": "User and agent friendly CLI to convert colors between formats",
 	"type": "module",
