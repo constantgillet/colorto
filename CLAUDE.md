@@ -4,7 +4,7 @@ This file guides Claude Code (claude.ai/code) when working with code in this rep
 
 ## Project Overview
 
-Poly color is a user and agent friendly CLI to convert colors in different color formats.
+Colorto is a user and agent friendly CLI to convert colors in different color formats.
 
 Here are the different supported color formats:
 
