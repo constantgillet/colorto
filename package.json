@@ -1,9 +1,13 @@
 {
 	"name": "@cgillet/colorto",
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"description": "User and agent friendly CLI to convert colors between formats",
 	"type": "module",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/constantgillet/colorto.git"
+	},
 	"bin": {
 		"colorto": "./dist/cli.js"
 	},

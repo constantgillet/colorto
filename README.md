@@ -12,7 +12,7 @@ User and agent friendly CLI to convert colors between formats.
 ## Installation
 
 ```bash
-npm install -g colorto
+npm install -g @cgillet/colorto
 ```
 
 ## Usage
